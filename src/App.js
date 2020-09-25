@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Test from "./Test";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <Test text1="test1" text2="test2" />
+        <Test text1="test3" text2="test4" />
       </header>
     </div>
   );
